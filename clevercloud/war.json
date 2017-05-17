@@ -1,0 +1,11 @@
+{
+   "deploy":{
+      "container":"TOMCAT8",
+      "war" : [
+         {
+            "file":"dddsample-2.0-SNAPSHOT.war",
+            "context":"/ddsample"
+         }
+      ]
+   }
+}
